@@ -1,0 +1,37 @@
+{
+  "name": "prism-size-check",
+  "version": "1.0.0",
+  "description": "Zero-dependency size budget checker: raw, gzip and brotli sizes for your build output, globs with excludes, per-file or total budgets, baselines with deltas, CI-friendly exit codes.",
+  "bin": {
+    "sizecheck": "bin/sizecheck.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "bundle-size",
+    "size-limit",
+    "performance",
+    "gzip",
+    "brotli",
+    "web-performance",
+    "ci",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-size-check.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-size-check#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}

@@ -1,0 +1,7 @@
+[
+  { "name": "App JS", "path": ["dist/assets/*.js", "!dist/assets/vendor.js"], "limit": "75 kB" },
+  { "name": "Vendor", "path": "dist/assets/vendor.js", "limit": "120 kB", "compression": "brotli" },
+  { "name": "CSS", "path": "dist/**/*.css", "limit": "10 kB" },
+  { "path": "dist/assets/*.{webp,png,jpg}", "limit": "150 kB", "compression": "none", "each": true },
+  { "name": "HTML", "path": "dist/index.html", "limit": "2 kB" }
+]
